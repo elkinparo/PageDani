@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/forms.css">
+    <title>Formularios</title>
+</head>
+
+<body>
+
+    <div class="titulo-encuesta">
+        <H2>ENCUESTA DE SATISFACCIÓN</H2>
+    </div>
+    <div class="content-form">
+        <form class="form" action="">
+            <label for="nombre">
+                <span>Dinos tu nombre</span>
+                <br>
+                <input type="text" id="nombre" name="nombre" autocomplete="name" class="encuesta__input">
+            </label>
+            <br>
+            <label for="Calificacion">
+                <span>¿Cómo fue tu atención?</span>
+                <br>
+                <input list="Calificacion" class="encuesta__input">
+                <datalist id="Calificacion">
+                    <option value="Muy buena"></option>
+                    <option value="Buena"></option>
+                    <option value="Regular"></option>
+                    <option value="Mala"></option>
+                    <option value="pesima"></option>
+                </datalist>
+            </label>
+            <br>
+            <label for="Mejoras" class="">
+                <span>Nos gustaría saber tu opinión</span>
+                <br>
+                <textarea type="text" id="Mejoras" name="mejoras" class="encuesta__input encuesta__input--mejoras"></textarea>
+            </label>
+            <br>
+            <br>
+            <input type="submit">
+        </form>
+    </div>
+</body>
+
+</html>

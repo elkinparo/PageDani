@@ -1,0 +1,57 @@
+
+.color1 {color: #140b1d;}
+.color2 {color: #3f3253;}
+.color3 {color: #796397;}
+.color4 {color: #c19ce5;}
+.color5 {color: #f8d1ed;}
+
+.form{
+
+    margin-top: 20px;
+    font-size: larger;
+    text-align: center;
+    padding: 50px;
+    
+}
+body{
+    width: 100%;
+    height:auto;
+    text-align: left;
+    background-color: #140b1d
+;
+}
+.content-form{
+    width: 50%;
+    max-width: 50%;
+    align-items: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    color: white;
+}
+
+.titulo-encuesta{
+ text-align: center;
+ margin-top: 5%;
+ color: aliceblue;
+
+}
+
+.encuesta__input{
+    width: 50%;
+    height: 30px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    color: #140b1d;
+    background-color: rgba(214, 209, 209, 0.911);
+
+}
+
+.encuesta__input--mejoras{
+    width: 50%;
+    height: 150px;
+}
+
+.encuesta__input--fecha{
+    text-align: center;
+}
+
