@@ -1,81 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="CSS/main.css">
+    <link rel="stylesheet" href="CSS/styles.css">
+    <!-- <link rel="stylesheet" href="CSS/main.css"> -->
 </head>
-<body style>
-    <header>
-        <nav>
-            <ul>
-                <section class="-logo">
-                    <img src="./claseImg/Nive.png" alt="" class="nav__logo" >
-                </section>
-            </ul>
-            <ul>
-                <section class="nav-input">
-                    <div class="nav-input-container">
-                        <span class="search-icon">
-                        </span>
-                        <input class="search-text" type="text">
-                    </div>
-                </section>
-            </ul>
-            <ul class="nav-right-section">
-               <li class="catalogo-icon">
-                 <img class="catalogo-img" src="/claseImg/catalogo_icono.png" alt="catalogo-icon">
-                 <br>
-                 <a href="" class="nav__item">Catálogo</a>
-               </li>
-               <li class="bolsa-icon">
-                <img class="bolsa-img" src="/claseImg/bolsa.png" alt="bolsa-icon">
-                <br>
-                <a href="" class="nav__item">Mis compras</a>
-              </li>
-              <li class="loggin-icon">
-                <img class="loggin-img" src="/claseImg/loggin.png" alt="loggin-icon">
-                <br>
-                <a href="" class="nav__item">Iniciar sesión</a>
-              </li>
-            </ul>
+
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="nav__logo-container">
+                <img src="./claseImg/Nive.png" class="nav__image">
+            </div>
+            <div class="nav__search-container">
+                <input type="text" class="nav__search" id="search">
+            </div>
+            <div class="nav__list">
+                <div class="nav__items">
+                    <img src="./claseImg/catalogo_icono.png" alt="" class="nav__icon">
+                    <a href="#" class="nav__links">Catálogo</a>
+                </div>
+                <div class="nav__items">
+                    <img src="./claseImg/bolsa.png" alt="" class="nav__icon">
+                    <a href="#" class="nav__links">Mis compras</a>
+                </div>
+                <div class="nav__items">
+                    <img src="./claseImg/loggin.png" alt="" class="nav__icon">
+                    <a href="#" class="nav__links">Iniciar sesión</a>
+                </div>
+            </div>
         </nav>
     </header>
-    <main>
-        <h2 class="title"> LO MÁS VENDIDO</h2>
-        <div class="contenedor">
-            <div class="items">
-                <img class="vestido" src="/claseImg/vestido.jpg" alt="vestido" height="400px">
-                <br>
-                <a class="referencias" href="">Vestidos</a>
-            </div>  
-            <div class="items">
-                <img class="vestido" src="/claseImg/ConjuntoJogeer.jpg" alt="ConjuntoJogeer" height="400px">
-                <br>
-                <a class="referencias" href="">ConjuntoJogeer</a>
-            </div>
-            <div class="items">
-                <img class="vestido" src="/claseImg/VestidoHilo.jpg" alt="VestidoHilo" height="400px">
-                <br>
-                <a class="referencias" href="">VestidoHilo</a>
-            </div>          
+    <main class="main">
+        <div class="main__contain1">
+            <h2 class="main__contain1-title"> LO MÁS VENDIDO</h2>
         </div>
-        
+        <div class="main__contain2">
+            <div class="main__contain2-items">
+                <img class="main__vestido" src="/claseImg/vestido.jpg" alt="vestido" height="400px">
+                <br>
+                <a class="main__referencias" href="">Vestidos</a>
+            </div>
+            <div class="main__contain2-items">
+                <img class="main__vestido" src="/claseImg/ConjuntoJogeer.jpg" alt="ConjuntoJogeer" height="400px">
+                <br>
+                <a class="main__referencias" href="">ConjuntoJogeer</a>
+            </div>
+            <div class="main__contain2-items">
+                <img class="main__vestido" src="/claseImg/VestidoHilo.jpg" alt="VestidoHilo" height="400px">
+                <br>
+                <a class="main__referencias" href="">VestidoHilo</a>
+            </div>
+        </div>
     </main>
-    <footer>
-      <ul class="footer-left">
-        <li>
-            <a href="/ClaseForms/index.html">Encuesta</a>
-        </li>
-      </ul>
-      <ul class="footer-right">
-        <li>
-            <a href="">Comentarios</a>
-        </li>
-      </ul>
+    <footer class="footer">
+        <ul class="footer-left">
+            <li>
+                <a href="/ClaseForms/index.html">Encuesta</a>
+            </li>
+        </ul>
+        <ul class="footer-right">
+            <li>
+                <a href="">Comentarios</a>
+            </li>
+        </ul>
     </footer>
 </body>
-</html>
 
+</html>
