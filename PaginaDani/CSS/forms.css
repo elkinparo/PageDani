@@ -11,8 +11,8 @@ body{
     width: 100%;
     height:auto;
     text-align: left;
-    background-color: #140b1d
-;
+    background-color: #6e4de7;
+    margin-top: 8%;
 }
 .content-form{
     width: 50%;
@@ -21,22 +21,25 @@ body{
     margin-left: 25%;
     margin-right: 25%;
     color: white;
+    background-color: #8675c4e7;
+    border-radius: 20px;
 }
 
 .titulo-encuesta{
  text-align: center;
- margin-top: 5%;
  color: aliceblue;
 
 }
 
 .encuesta__input{
+
     width: 50%;
     height: 30px;
     margin-bottom: 15px;
     margin-top: 15px;
     color: #140b1d;
-    background-color: rgba(214, 209, 209, 0.911);
+    background-color: white;
+    border-radius: 20px;
 
 }
 

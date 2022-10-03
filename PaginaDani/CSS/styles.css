@@ -70,18 +70,23 @@ body{
 
 .nav__items{
     display: flex;
-    gap: 10px;
     align-items: center;
     justify-content: center;
 }
 
 .nav__icon{
     width: 50px;
+    margin-left: 20%;
+}
+.nav__icon--catalogo{
+    width: 50px;
+    margin-left: 7%;
 }
 
 .nav__links{
     color:#fff;
     text-decoration: none;
+
 }
 
 /* @media screen and (min-width: 480px) and (max-width: 720px){
@@ -94,16 +99,15 @@ body{
 /* Main */
 
 .main{
-    height: 700px;
+    height: 50px;
 }
 
 .main__contain1{
-
     margin: 0 auto;
-    width: 50%;
+    width: 80%;
     display: grid;
     place-content: center;
-    height: 150px;
+    height: 180px;
 }
 .main__contain1-title {
     font-size: 50px;
@@ -115,7 +119,6 @@ body{
 .main__contain2{
     margin: 5px;
     display: flex;
-    grid-template-columns: repeat(auto-fit,minmax(100px,1fr));
     place-content: center;
     gap: 25px;
 }
@@ -123,11 +126,11 @@ body{
 .main__contain2-items{
     object-fit: contain;
     color: #000000;
-
 }
 
 .main__vestido{
     width: 300px;
+    border-radius: 10%;
 }
 
 .main__referencias{
@@ -135,10 +138,10 @@ body{
     color: white;
     bottom: 10;
     display: grid;
-    grid-template-columns: repeat(3, 0fr);
+    grid-template-columns: repeat(5, 0fr);
     place-content: center;
     background-color: #6e4de7;
-    border-radius: 1000px;
+    border-radius: 10px;
     text-decoration: none;
     cursor: pointer;
 }
